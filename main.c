@@ -13,6 +13,8 @@
 //#define useQvga
 //#define useQqvga
 
+// Lets c git changes
+
 static inline void serialWrB(uint8_t dat){
 	while(!( UCSR0A & (1<<UDRE0)));//wait for byte to transmit
 	UDR0=dat;
